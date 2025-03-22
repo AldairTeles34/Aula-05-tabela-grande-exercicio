@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+
+            
+            
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,14 +10,23 @@
     <title>Tabela Grande</title>
     <style>
 
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 1000;
+            width: 100%;
+            background-color: gray;
+        }
+
+        .fot {
+            background-color: gray;
+        }
+
     </style>
 </head>
 <body>
     <table align="center" border="" width="60%">
         <thead>
-            <tr>
-                <th>População dos Estados Brasileiros - 2024</th>
-            </tr>
+            <caption>População dos Estados Brasileiros - 2024</caption>
             <tr>
                 <th>Estado</th>
                 <th>População</th>
@@ -38,98 +50,99 @@
                 <td>877.713</td>
                 <td><u>Sublinhado</u></td>
 
+                
             </tr>
             <tr>
                 <td><s>Amazonas</s></td>
                 <td>4566.32</td>
-                <td>Texto riscado e sublinhado</td>
+                <td><s>Texto riscado</s> e <u>Sublinhado</u></td>
             </tr>
             <tr>
-                <td>Bahia</td>
+                <td><sup>Bahia</sup></td>
                 <td>14.141.22</td>
-                <td>Texto Sobreescrito</td>
+                <td><sup>Texto Sobreescrito</sup></td>
 
             </tr>
             <tr>
-                <td>CE</td>
+                <td> <abbr title="ceara">CE</abbr></td>
                 <td>9.240.180</td>
                 <td>Abreviação</td>
 
             </tr>
             <tr>
-                <td>Distrito Federal</td>
+                <td><b>Distrito Federal</b></td>
                 <td>3.098.899</td>
-                <td>Texto em Negrito</td>
+                <td><b>Texto em Negrito</b></td>
 
             </tr>
             <tr>
-                <td>Espirito santo</td>
+                <td><q>Espirito santo</q></td>
                 <td>4.108.508</td>
-                <td>Citação Curta</td>
+                <td><q>Citação Curta</q></td>
 
             </tr>
             <tr>
                 <td>Goiás</td>
-                <td></td>
-                <td>Citação de Fonte</td>
+                <td>45665465</td>
+                <td><blockquote>Citação de Fonte</blockquote></td>
 
             </tr>
             <tr>
                 <td>Maranhão</td>
                 <td>6.77.805</td>
-                <td>Texto Monoespaçado</td>
+                <td><tt>Texto Monoespaçado</tt></td>
 
             </tr>
             <tr>
                 <td>Mato Grosso</td>
                 <td>3.658.813</td>
-                <td>Texto Pré Formatado</td>
+                <td><pre>Texto Pré Formatado</pre></td>
 
             </tr>
             <tr>
                 <td>Paraíba</td>
                 <td>4.059.905</td>
-                <td>Texto Pequeno</td>
+                <td><small>Texto pequeno</small></td>
 
             </tr>
             <tr>
                 <td>Piaui</td>
                 <td>3.281.480</td>
-                <td>Subscrito</td>
+                <td><sub>Subscrito</sub></td>
 
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
                 <td>16.054.524</td>
-                <td>Citação em Bloco</td>
+                <td><blockquote>Citação em Bloco</blockquote></td>
 
             </tr>
             <tr>
                 <td>Rio Grande do Sul</td>
                 <td>10.882.965</td>
-                <td>Negrito</td>
+                <td><b>Negrito</b></td>
 
             </tr>
             <tr>
                 <td>Rondônia</td>
                 <td>1.616.379</td>
-                <td>Itálico</td>
+                <td><i>Itálico</i></td>
 
             </tr>
             <tr>
                 <td>Roraima</td>
                 <td>636.707</td>
-                <td>Texto Destacado</td>
+                <td><mark>Texto Destacado</mark></td>
 
             </tr>
             <tr>
                 <td>To</td>
                 <td>1.607.363</td>
-                <td>Texto Destacado</td>
+                <td><abbr title="">Abreviação</abbr></td>
 
             </tr>
             <footer>
-                <tr>
+                <tr class="fot">
                     <th>Total da População estimada</th>
                     <th>Soma Total</th>
                     <td>Realizar Soma das Colunas</td>
